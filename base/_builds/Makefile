@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/workspace/c-study/base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /opt/workspace/c-study/base/build
+CMAKE_BINARY_DIR = /opt/workspace/c-study/base/_builds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /opt/workspace/c-study/base/build/CMakeFiles /opt/workspace/c-study/base/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/workspace/c-study/base/_builds/CMakeFiles /opt/workspace/c-study/base/_builds//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /opt/workspace/c-study/base/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/workspace/c-study/base/_builds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named base
+# Target rules for targets named main
 
 # Build rule for target.
-base: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base
-.PHONY : base
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-base/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/build
-.PHONY : base/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 src/1_base_date_type.o: src/1_base_date_type.cpp.o
 .PHONY : src/1_base_date_type.o
 
 # target to build an object file
 src/1_base_date_type.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/1_base_date_type.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/1_base_date_type.cpp.o
 .PHONY : src/1_base_date_type.cpp.o
 
 src/1_base_date_type.i: src/1_base_date_type.cpp.i
@@ -142,7 +142,7 @@ src/1_base_date_type.i: src/1_base_date_type.cpp.i
 
 # target to preprocess a source file
 src/1_base_date_type.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/1_base_date_type.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/1_base_date_type.cpp.i
 .PHONY : src/1_base_date_type.cpp.i
 
 src/1_base_date_type.s: src/1_base_date_type.cpp.s
@@ -150,7 +150,7 @@ src/1_base_date_type.s: src/1_base_date_type.cpp.s
 
 # target to generate assembly for a file
 src/1_base_date_type.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/1_base_date_type.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/1_base_date_type.cpp.s
 .PHONY : src/1_base_date_type.cpp.s
 
 src/2_function.o: src/2_function.cpp.o
@@ -158,7 +158,7 @@ src/2_function.o: src/2_function.cpp.o
 
 # target to build an object file
 src/2_function.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/2_function.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/2_function.cpp.o
 .PHONY : src/2_function.cpp.o
 
 src/2_function.i: src/2_function.cpp.i
@@ -166,7 +166,7 @@ src/2_function.i: src/2_function.cpp.i
 
 # target to preprocess a source file
 src/2_function.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/2_function.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/2_function.cpp.i
 .PHONY : src/2_function.cpp.i
 
 src/2_function.s: src/2_function.cpp.s
@@ -174,7 +174,7 @@ src/2_function.s: src/2_function.cpp.s
 
 # target to generate assembly for a file
 src/2_function.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/2_function.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/2_function.cpp.s
 .PHONY : src/2_function.cpp.s
 
 src/Main.o: src/Main.cpp.o
@@ -182,7 +182,7 @@ src/Main.o: src/Main.cpp.o
 
 # target to build an object file
 src/Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/Main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Main.cpp.o
 .PHONY : src/Main.cpp.o
 
 src/Main.i: src/Main.cpp.i
@@ -190,7 +190,7 @@ src/Main.i: src/Main.cpp.i
 
 # target to preprocess a source file
 src/Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/Main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Main.cpp.i
 .PHONY : src/Main.cpp.i
 
 src/Main.s: src/Main.cpp.s
@@ -198,7 +198,7 @@ src/Main.s: src/Main.cpp.s
 
 # target to generate assembly for a file
 src/Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/Main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
 src/log.o: src/log.cpp.o
@@ -206,7 +206,7 @@ src/log.o: src/log.cpp.o
 
 # target to build an object file
 src/log.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/log.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/log.cpp.o
 .PHONY : src/log.cpp.o
 
 src/log.i: src/log.cpp.i
@@ -214,7 +214,7 @@ src/log.i: src/log.cpp.i
 
 # target to preprocess a source file
 src/log.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/log.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/log.cpp.i
 .PHONY : src/log.cpp.i
 
 src/log.s: src/log.cpp.s
@@ -222,7 +222,7 @@ src/log.s: src/log.cpp.s
 
 # target to generate assembly for a file
 src/log.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/src/log.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/log.cpp.s
 .PHONY : src/log.cpp.s
 
 # Help Target
@@ -233,7 +233,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... base"
+	@echo "... main"
 	@echo "... src/1_base_date_type.o"
 	@echo "... src/1_base_date_type.i"
 	@echo "... src/1_base_date_type.s"

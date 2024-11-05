@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/workspace/c-study/base")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/opt/workspace/c-study/base/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/opt/workspace/c-study/base/_builds")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

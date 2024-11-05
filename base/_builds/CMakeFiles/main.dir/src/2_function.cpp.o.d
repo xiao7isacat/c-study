@@ -1,5 +1,5 @@
-CMakeFiles/base.dir/src/1_base_date_type.cpp.o: \
- /opt/workspace/c-study/base/src/1_base_date_type.cpp \
+CMakeFiles/main.dir/src/2_function.cpp.o: \
+ /opt/workspace/c-study/base/src/2_function.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/c++/11/aarch64-redhat-linux/bits/c++config.h \
  /usr/include/c++/11/aarch64-redhat-linux/bits/os_defines.h \

@@ -1,6 +1,6 @@
-CMakeFiles/base.dir/src/log.cpp.o: \
- /opt/workspace/c-study/base/src/log.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11/iostream \
+CMakeFiles/main.dir/src/1_base_date_type.cpp.o: \
+ /opt/workspace/c-study/base/src/1_base_date_type.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/c++/11/aarch64-redhat-linux/bits/c++config.h \
  /usr/include/c++/11/aarch64-redhat-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

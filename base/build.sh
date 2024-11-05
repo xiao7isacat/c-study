@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rf ./build
-cmake -S . -DCMAKE_BUILD_TYPE=Debug -B build
-cd build
+rm -rf ./_builds
+cmake -S . -DCMAKE_BUILD_TYPE=Debug -B _builds
+cd _builds
 make

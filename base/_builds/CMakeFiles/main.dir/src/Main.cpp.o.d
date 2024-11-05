@@ -1,6 +1,6 @@
-CMakeFiles/base.dir/src/2_function.cpp.o: \
- /opt/workspace/c-study/base/src/2_function.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
+CMakeFiles/main.dir/src/Main.cpp.o: \
+ /opt/workspace/c-study/base/src/Main.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/11/iostream \
  /usr/include/c++/11/aarch64-redhat-linux/bits/c++config.h \
  /usr/include/c++/11/aarch64-redhat-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -122,4 +122,5 @@ CMakeFiles/base.dir/src/2_function.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc
+ /usr/include/c++/11/bits/istream.tcc \
+ /opt/workspace/c-study/base/include/function.h

@@ -4,8 +4,8 @@
 int main(){
 //	Log("hello");
 //	base_date_type();
-//	multiplyAddlog(3, 4);
+	multiplyAddlog(3, 4);
 
-	std::cin.get();
+//	std::cin.get();
 	return 0;
 }

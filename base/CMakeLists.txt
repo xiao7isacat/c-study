@@ -5,7 +5,7 @@
 
 cmake_minimum_required (VERSION 3.5)
 
-project (base)
+project (main)
 
 set (MAKE_CXX_FLAGS "${MAKE_CXX_FLAGS} -Wall -Werror ")
 set (source_dir "${PROJECT_SOURCE_DIR}/src")
