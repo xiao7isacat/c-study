@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/main.dir/src/1_base_date_type.cpp.o CMakeFiles/main.dir/src/2_function.cpp.o CMakeFiles/main.dir/src/3_if_while_for.cpp.o CMakeFiles/main.dir/src/4_ptr.cpp.o CMakeFiles/main.dir/src/Main.cpp.o CMakeFiles/main.dir/src/log.cpp.o -o main 

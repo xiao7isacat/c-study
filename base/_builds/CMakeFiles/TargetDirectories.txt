@@ -1,3 +1,0 @@
-/opt/workspace/c-study/base/_builds/CMakeFiles/main.dir
-/opt/workspace/c-study/base/_builds/CMakeFiles/edit_cache.dir
-/opt/workspace/c-study/base/_builds/CMakeFiles/rebuild_cache.dir
