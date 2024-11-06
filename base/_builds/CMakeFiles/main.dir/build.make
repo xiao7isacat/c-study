@@ -97,10 +97,38 @@ CMakeFiles/main.dir/src/2_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/2_function.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/workspace/c-study/base/src/2_function.cpp -o CMakeFiles/main.dir/src/2_function.cpp.s
 
+CMakeFiles/main.dir/src/3_if_while_for.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/3_if_while_for.cpp.o: /opt/workspace/c-study/base/src/3_if_while_for.cpp
+CMakeFiles/main.dir/src/3_if_while_for.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/workspace/c-study/base/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/3_if_while_for.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/3_if_while_for.cpp.o -MF CMakeFiles/main.dir/src/3_if_while_for.cpp.o.d -o CMakeFiles/main.dir/src/3_if_while_for.cpp.o -c /opt/workspace/c-study/base/src/3_if_while_for.cpp
+
+CMakeFiles/main.dir/src/3_if_while_for.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/3_if_while_for.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/workspace/c-study/base/src/3_if_while_for.cpp > CMakeFiles/main.dir/src/3_if_while_for.cpp.i
+
+CMakeFiles/main.dir/src/3_if_while_for.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/3_if_while_for.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/workspace/c-study/base/src/3_if_while_for.cpp -o CMakeFiles/main.dir/src/3_if_while_for.cpp.s
+
+CMakeFiles/main.dir/src/4_ptr.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/4_ptr.cpp.o: /opt/workspace/c-study/base/src/4_ptr.cpp
+CMakeFiles/main.dir/src/4_ptr.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/workspace/c-study/base/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/4_ptr.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/4_ptr.cpp.o -MF CMakeFiles/main.dir/src/4_ptr.cpp.o.d -o CMakeFiles/main.dir/src/4_ptr.cpp.o -c /opt/workspace/c-study/base/src/4_ptr.cpp
+
+CMakeFiles/main.dir/src/4_ptr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/4_ptr.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/workspace/c-study/base/src/4_ptr.cpp > CMakeFiles/main.dir/src/4_ptr.cpp.i
+
+CMakeFiles/main.dir/src/4_ptr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/4_ptr.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/workspace/c-study/base/src/4_ptr.cpp -o CMakeFiles/main.dir/src/4_ptr.cpp.s
+
 CMakeFiles/main.dir/src/Main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Main.cpp.o: /opt/workspace/c-study/base/src/Main.cpp
 CMakeFiles/main.dir/src/Main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/workspace/c-study/base/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/Main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/workspace/c-study/base/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/Main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Main.cpp.o -MF CMakeFiles/main.dir/src/Main.cpp.o.d -o CMakeFiles/main.dir/src/Main.cpp.o -c /opt/workspace/c-study/base/src/Main.cpp
 
 CMakeFiles/main.dir/src/Main.cpp.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/main.dir/src/Main.cpp.s: cmake_force
 CMakeFiles/main.dir/src/log.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/log.cpp.o: /opt/workspace/c-study/base/src/log.cpp
 CMakeFiles/main.dir/src/log.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/workspace/c-study/base/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/workspace/c-study/base/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/log.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/log.cpp.o -MF CMakeFiles/main.dir/src/log.cpp.o.d -o CMakeFiles/main.dir/src/log.cpp.o -c /opt/workspace/c-study/base/src/log.cpp
 
 CMakeFiles/main.dir/src/log.cpp.i: cmake_force
@@ -129,6 +157,8 @@ CMakeFiles/main.dir/src/log.cpp.s: cmake_force
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/1_base_date_type.cpp.o" \
 "CMakeFiles/main.dir/src/2_function.cpp.o" \
+"CMakeFiles/main.dir/src/3_if_while_for.cpp.o" \
+"CMakeFiles/main.dir/src/4_ptr.cpp.o" \
 "CMakeFiles/main.dir/src/Main.cpp.o" \
 "CMakeFiles/main.dir/src/log.cpp.o"
 
@@ -137,11 +167,13 @@ main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/1_base_date_type.cpp.o
 main: CMakeFiles/main.dir/src/2_function.cpp.o
+main: CMakeFiles/main.dir/src/3_if_while_for.cpp.o
+main: CMakeFiles/main.dir/src/4_ptr.cpp.o
 main: CMakeFiles/main.dir/src/Main.cpp.o
 main: CMakeFiles/main.dir/src/log.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/opt/workspace/c-study/base/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/opt/workspace/c-study/base/_builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

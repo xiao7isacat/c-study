@@ -1,0 +1,2 @@
+void ptrStudy();
+void refStudy();

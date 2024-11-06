@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/opt/workspace/c-study/base/src/1_base_date_type.cpp" "CMakeFiles/main.dir/src/1_base_date_type.cpp.o" "gcc" "CMakeFiles/main.dir/src/1_base_date_type.cpp.o.d"
   "/opt/workspace/c-study/base/src/2_function.cpp" "CMakeFiles/main.dir/src/2_function.cpp.o" "gcc" "CMakeFiles/main.dir/src/2_function.cpp.o.d"
+  "/opt/workspace/c-study/base/src/3_if_while_for.cpp" "CMakeFiles/main.dir/src/3_if_while_for.cpp.o" "gcc" "CMakeFiles/main.dir/src/3_if_while_for.cpp.o.d"
+  "/opt/workspace/c-study/base/src/4_ptr.cpp" "CMakeFiles/main.dir/src/4_ptr.cpp.o" "gcc" "CMakeFiles/main.dir/src/4_ptr.cpp.o.d"
   "/opt/workspace/c-study/base/src/Main.cpp" "CMakeFiles/main.dir/src/Main.cpp.o" "gcc" "CMakeFiles/main.dir/src/Main.cpp.o.d"
   "/opt/workspace/c-study/base/src/log.cpp" "CMakeFiles/main.dir/src/log.cpp.o" "gcc" "CMakeFiles/main.dir/src/log.cpp.o.d"
   )

@@ -177,6 +177,54 @@ src/2_function.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/2_function.cpp.s
 .PHONY : src/2_function.cpp.s
 
+src/3_if_while_for.o: src/3_if_while_for.cpp.o
+.PHONY : src/3_if_while_for.o
+
+# target to build an object file
+src/3_if_while_for.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/3_if_while_for.cpp.o
+.PHONY : src/3_if_while_for.cpp.o
+
+src/3_if_while_for.i: src/3_if_while_for.cpp.i
+.PHONY : src/3_if_while_for.i
+
+# target to preprocess a source file
+src/3_if_while_for.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/3_if_while_for.cpp.i
+.PHONY : src/3_if_while_for.cpp.i
+
+src/3_if_while_for.s: src/3_if_while_for.cpp.s
+.PHONY : src/3_if_while_for.s
+
+# target to generate assembly for a file
+src/3_if_while_for.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/3_if_while_for.cpp.s
+.PHONY : src/3_if_while_for.cpp.s
+
+src/4_ptr.o: src/4_ptr.cpp.o
+.PHONY : src/4_ptr.o
+
+# target to build an object file
+src/4_ptr.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/4_ptr.cpp.o
+.PHONY : src/4_ptr.cpp.o
+
+src/4_ptr.i: src/4_ptr.cpp.i
+.PHONY : src/4_ptr.i
+
+# target to preprocess a source file
+src/4_ptr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/4_ptr.cpp.i
+.PHONY : src/4_ptr.cpp.i
+
+src/4_ptr.s: src/4_ptr.cpp.s
+.PHONY : src/4_ptr.s
+
+# target to generate assembly for a file
+src/4_ptr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/4_ptr.cpp.s
+.PHONY : src/4_ptr.cpp.s
+
 src/Main.o: src/Main.cpp.o
 .PHONY : src/Main.o
 
@@ -240,6 +288,12 @@ help:
 	@echo "... src/2_function.o"
 	@echo "... src/2_function.i"
 	@echo "... src/2_function.s"
+	@echo "... src/3_if_while_for.o"
+	@echo "... src/3_if_while_for.i"
+	@echo "... src/3_if_while_for.s"
+	@echo "... src/4_ptr.o"
+	@echo "... src/4_ptr.i"
+	@echo "... src/4_ptr.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
