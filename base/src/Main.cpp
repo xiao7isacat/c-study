@@ -1,6 +1,5 @@
-#include<log.h>
-#include<iostream>
-#include<ptr_study.h>
+#include "conStructors.h"
+#include <iostream>
 
 
 #define LOG(x) std::cout << x << std::endl
@@ -11,8 +10,14 @@ int main(){
 //	multiplyAddlog(3, 4);
 //	if_while_for();
 //	ptrStudy();
-	refStudy();
-	Log("end");
+//	refStudy();
+//	MyLog();
+//	static_study();
+//	static_struct_study();
+	conAndDeStructorsTest();
+	test t3;
+	t3.print();
+	LOG("end");
 //	std::cin.get();
 	return 0;
 }
