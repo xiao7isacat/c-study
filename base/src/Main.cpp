@@ -1,4 +1,4 @@
-#include "conStructors.h"
+#include "inhertance.h"
 #include <iostream>
 
 
@@ -14,9 +14,8 @@ int main(){
 //	MyLog();
 //	static_study();
 //	static_struct_study();
-	conAndDeStructorsTest();
-	test t3;
-	t3.print();
+//	conAndDeStructorsTest();
+	inheritance();
 	LOG("end");
 //	std::cin.get();
 	return 0;
