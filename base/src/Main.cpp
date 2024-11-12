@@ -1,4 +1,4 @@
-#include "inhertance.h"
+#include "virtual_function.h"
 #include <iostream>
 
 
@@ -15,7 +15,8 @@ int main(){
 //	static_study();
 //	static_struct_study();
 //	conAndDeStructorsTest();
-	inheritance();
+//	inheritance();
+	virtual_function();
 	LOG("end");
 //	std::cin.get();
 	return 0;

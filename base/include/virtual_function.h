@@ -1,0 +1,1 @@
+void virtual_function();
